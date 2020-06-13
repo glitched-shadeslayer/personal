@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightblue;
+    padding: 10px;
+}
+  
+h1 {
+    color: navy;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 200%;
+}
+
+div {
+    border: 1px solid #2e2530;
+    background-color: #e4f3cc;
+    height: 180px;
+    padding-left: 0.75%;
+    padding-bottom: 0.75%;
+    overflow: auto;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: #140606;
+}
+
+div > p {
+    border: 1px solid #2e2530;
+    height: 39px;
+    width: 30%;
+    margin-top: 0px;
+    margin-bottom: 1px;
+    padding: 0.75%;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: bold;
+    font-size: 125%;
+    text-align: center;
+    position: relative;
+    left: 70%;
+    top: 0px;
+    overflow: auto;
+    /*right: 0px;*/
+}
+
+#p1 {
+    color: #140606;
+    background-color: #269dec;
+}
+
+#p2 {
+    color: #ffffff;
+    background-color: #b12968;
+}
+
+#p3 {
+    color: #e2e6cf;
+    background-color: #0e0ba7;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+        width: 30%;
+        margin: 1.66%;
+    }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6, .col-md-12 {
+        float: left;
+    }
+    .col-md-6 {
+        width: 45%;
+        margin: 2%;
+    }
+    .col-md-12 {
+        width: 94%;
+        margin: 2%;
+    }
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+    .col-sm-12 {
+        float: left;
+        width: 95%;
+        margin: 2.5%;
+    }
+}

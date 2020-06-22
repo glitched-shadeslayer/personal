@@ -1,4 +1,3 @@
-## Personal
-Stay away unless you've been told to come this way :p
+## Module 3 Solution
 
-PS: This is under contruction.
+Hello, this is the solution to the coding assignment in Module 3 of HTML, CSS Javascript for Web Developers on Coursera. Please review my assignment. The webpage link is https://glitched-shadeslayer.github.io/module3-solution/ Thank you.
